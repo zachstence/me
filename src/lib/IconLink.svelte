@@ -11,10 +11,14 @@
 
 <style lang="postcss">
     a {
-        @apply w-16 h-16 p-2;
+        @apply w-fit h-fit p-2;
     
         &:hover {
             @apply bg-transparent;
         }
+    }
+
+    span {
+        @apply flex justify-center items-center;
     }
 </style>
