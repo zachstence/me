@@ -21,7 +21,7 @@
         <div class="body">
             <div class="header">
                 <h1>Zach Stence</h1>
-                <span class="text-sm">he/him</span>
+                <span>he/him</span>
             </div>
 
             <div class="bio">
@@ -76,8 +76,8 @@
 
         .header {
             @apply flex flex-row items-end justify-center mt-6;
-            h1 { @apply text-4xl font-bold w-fit; }
-            span { @apply text-sm font-thin italic ml-2; }
+            h1 { @apply text-4xl font-bold w-fit leading-9; }
+            span { @apply text-sm font-thin italic leading-snug ml-2; }
         }
 
         .bio {
