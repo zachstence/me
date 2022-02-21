@@ -10,6 +10,8 @@
     import FaServer from "svelte-icons/fa/FaServer.svelte";
     import FaKeyboard from "svelte-icons/fa/FaKeyboard.svelte";
     import IoMdPlanet from "svelte-icons/io/IoMdPlanet.svelte";
+
+    document.title = "Zach Stence"
 </script>
 
 <main class="bg-base-200">
