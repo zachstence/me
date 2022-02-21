@@ -10,17 +10,16 @@
     import FaServer from "svelte-icons/fa/FaServer.svelte";
     import FaKeyboard from "svelte-icons/fa/FaKeyboard.svelte";
     import IoMdPlanet from "svelte-icons/io/IoMdPlanet.svelte";
-
-    document.title = "Zach Stence"
 </script>
 
 
 <svelte:head>
+    <title>Zach Stence</title>
+
     <meta property="og:title" content="Zach Stence" />
     <meta property="og:type" content="website" />
     <meta property="og:image" content="/me.jpg" />
     <meta property="og:url" content="https://stence.me" />
-
     <meta property="og:description" content="Zach Stence's bio and social links" />
 </svelte:head>
 
