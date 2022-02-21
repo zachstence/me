@@ -14,6 +14,17 @@
     document.title = "Zach Stence"
 </script>
 
+
+<svelte:head>
+    <meta property="og:title" content="Zach Stence" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="/me.jpg" />
+    <meta property="og:url" content="https://stence.me" />
+
+    <meta property="og:description" content="Zach Stence's bio and social links" />
+</svelte:head>
+
+
 <main class="bg-base-200">
     <div class="me bg-base-100">
         <figure><img src="me.jpg" alt="Me" /></figure>
