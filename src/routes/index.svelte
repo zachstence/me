@@ -108,7 +108,7 @@
 
     @screen md {
         .me {
-            @apply w-auto h-auto card p-0;
+            @apply w-auto h-auto card p-0 shadow-2xl;
 
             .body { @apply card-body pt-0; }
 
