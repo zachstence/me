@@ -16,45 +16,46 @@ const config = {
     themes: [
       {
         'dark': {
-           'primary' : '#793ef9',
-           'primary-focus' : '#570df8',
-           'primary-content' : '#ffffff',
+           'primary' : '#3974fe',
+           'primary-focus' : '#185cfb',
+           'primary-content' : '#fcfcfc',
 
-           'secondary' : '#f000b8',
-           'secondary-focus' : '#bd0091',
-           'secondary-content' : '#ffffff',
+           'secondary' : '#e265cd',
+           'secondary-focus' : '#d548bc',
+           'secondary-content' : '#fcfcfc',
 
-           'accent' : '#37cdbe',
-           'accent-focus' : '#2ba69a',
-           'accent-content' : '#ffffff',
+           'accent' : '#3cb2b4',
+           'accent-focus' : '#389d9f',
+           'accent-content' : '#fcfcfc',
 
-           'neutral' : '#2d3034',
-           'neutral-focus' : '#121416',
-           'neutral-content' : '#ffffff',
+           'neutral' : '#272d35',
+           'neutral-focus' : '#24272d',
+           'neutral-content' : '#fcfcfc',
 
-           'base-100' : '#1b1e23',
-           'base-200' : '#14161a',
-           'base-300' : '#090a0c',
-           'base-content' : '#ebecf0',
+           'base-100' : '#1f2223',
+           'base-200' : '#121516',
+           'base-300' : '#0c0d0e',
+           'base-content' : '#e7e9e9',
 
-           'info' : '#66c7ff',
-           'success' : '#87cf3a',
-           'warning' : '#e1d460',
-           'error' : '#ff6b6b',
+           'info' : '#38b6ff',
+           'success' : '#37d78d',
+           'warning' : '#eaa443',
+           'error' : '#ff5c74',
 
-          '--rounded-box': '0.5rem',
+          '--rounded-box': '1rem',
           '--rounded-btn': '0.5rem',
-          '--rounded-badge': '1.9rem',
+          '--rounded-badge': '1rem',
 
-          '--animation-btn': '0.25s',
-          '--animation-input': '0.2s',
+          '--animation-btn': '0.15s',
+          '--animation-input': '0.05s',
 
           '--btn-text-case': 'uppercase',
           '--navbar-padding': '0.5rem',
-          '--border-btn': '1px',
+          '--border-btn': '2px',
         },
       },
     ],
-  },};
+  },
+};
 
 module.exports = config;
